@@ -59,9 +59,22 @@ src="https://www.facebook.com/tr?id=SEU_PIXEL_ID&ev=PageView&noscript=1"
       <span class="logo-placeholder__paw">🐾</span>
       <span class="logo-placeholder__text">Agropatas</span>
     </div>
-    <a href="#" class="btn btn--primary btn--sm js-whatsapp" data-wa-msg="Olá! Quero agendar um banho e tosa para meu pet 🐾">
-      Agendar no WhatsApp
-    </a>
+
+    <nav class="nav" id="nav-menu" aria-label="Navegação principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#promocao">Promoção</a>
+      <a href="#localizacao">Localização</a>
+    </nav>
+
+    <div class="header__right">
+      <a href="#" class="btn btn--dark btn--sm js-whatsapp" data-wa-msg="Olá! Quero agendar um banho e tosa para meu pet 🐾">
+        Agendar
+      </a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -70,72 +83,127 @@ src="https://www.facebook.com/tr?id=SEU_PIXEL_ID&ev=PageView&noscript=1"
   <!-- ===================== HERO (GANCHO) ===================== -->
   <section class="hero">
     <div class="container hero__inner">
-      <div class="hero__badge">
-        <span class="stars" aria-hidden="true">★★★★★</span>
-        <span>5,0 no Google · 9 avaliações</span>
+      <div class="hero__copy">
+        <div class="hero__badge">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <span>5,0 no Google · 9 avaliações</span>
+        </div>
+
+        <h1 class="hero__title">Mais que alimentar,<br><span>NUTRIR</span> de verdade.</h1>
+
+        <p class="hero__subtitle">
+          Banho, tosa e todo carinho num ambiente aconchegante e seguro, em Itupeva.
+          Sem tempo de levar? A gente busca e leva seu pet em casa com o <strong>TaxiDog</strong>.
+        </p>
+
+        <div class="hero__ctas">
+          <a href="#" class="btn btn--primary btn--lg js-whatsapp" data-wa-msg="Olá! Quero agendar um banho e tosa para meu pet 🐾">
+            📅 Agendar no WhatsApp
+          </a>
+        </div>
       </div>
 
-      <h1 class="hero__title">Mais que alimentar, <span>NUTRIR</span> — do jeitinho que o seu pet merece.</h1>
-
-      <p class="hero__subtitle">
-        Banho, tosa e todo carinho num ambiente aconchegante e seguro, em Itupeva.
-        E se você não tem tempo de levar? A gente busca e leva seu pet em casa com o
-        <strong>TaxiDog</strong>.
-      </p>
-
-      <div class="hero__ctas">
-        <a href="#" class="btn btn--accent btn--lg js-whatsapp" data-wa-msg="Olá! Quero agendar um banho e tosa para meu pet 🐾">
-          📅 Agendar no WhatsApp
-        </a>
+      <div class="hero__media">
+        <!-- SUBSTITUIR por: <img src="assets/hero-pet-feliz.jpg" alt="Cão e gato felizes após banho na Agropatas"> -->
+        <div class="img-placeholder img-placeholder--hero" role="img" aria-label="Foto real: cão e gato felizes recém-tosados na Agropatas (substituir)">
+          <span>🐶🐱 SUBSTITUIR<br>por foto real de pets felizes</span>
+        </div>
       </div>
 
-      <!-- SUBSTITUIR por: <img src="assets/hero-pet-feliz.jpg" alt="Cão feliz após banho na Agropatas"> -->
-      <div class="img-placeholder img-placeholder--hero" role="img" aria-label="Foto real: pet feliz recém-tosado na Agropatas (substituir)">
-        <span>🐶🐱 SUBSTITUIR<br>por foto real de um pet feliz</span>
-      </div>
+      <a href="#" class="hero__float-card js-whatsapp" data-wa-msg="Olá! Quero saber como funciona o TaxiDog para buscar e levar meu pet em casa 🚕🐾">
+        <span class="hero__float-icon" aria-hidden="true">🚕</span>
+        <span class="hero__float-text">
+          <strong>TaxiDog</strong>
+          Buscamos e levamos seu pet
+        </span>
+        <span class="hero__float-arrow" aria-hidden="true">→</span>
+      </a>
     </div>
   </section>
 
   <!-- ===================== PROBLEMA / EMPATIA ===================== -->
   <section class="problema">
     <div class="container">
-      <h2 class="section-title">Confiar seu pet a qualquer lugar dá um friozinho na barriga, né?</h2>
       <p class="problema__texto">
-        A gente sabe: banho e tosa em lugar errado deixa o pet estressado, agitado, se coçando e se
-        esfregando no chão quando chega em casa. E ainda tem o transtorno de organizar a ida e a volta.
-        Seu pet não é só mais um cliente — e ele merece ser tratado assim.
+        A gente sabe: banho e tosa em lugar errado deixa o pet estressado, se coçando e se esfregando
+        no chão quando chega em casa. Seu pet não é só mais um cliente — e merece ser tratado assim.
       </p>
+    </div>
+  </section>
+
+  <!-- ===================== POR QUE ESCOLHER ===================== -->
+  <section class="porque">
+    <div class="container">
+      <h2 class="section-title">Por que escolher a Agropatas</h2>
+
+      <div class="porque__grid">
+        <div class="feature">
+          <div class="feature__icon feature__icon--amarelo" aria-hidden="true">💛</div>
+          <h3 class="feature__title">Carinho de verdade</h3>
+          <p class="feature__text">Atendimento humanizado, sem pressa e sem estresse para o seu pet.</p>
+        </div>
+        <div class="feature">
+          <div class="feature__icon feature__icon--turquesa" aria-hidden="true">🛡️</div>
+          <h3 class="feature__title">Ambiente seguro</h3>
+          <p class="feature__text">Espaço aconchegante, limpo e pensado para o bem-estar de cada bichinho.</p>
+        </div>
+        <div class="feature">
+          <div class="feature__icon feature__icon--azul" aria-hidden="true">⭐</div>
+          <h3 class="feature__title">Nota 5,0 no Google</h3>
+          <p class="feature__text">Aprovação de quem já confia a gente com quem mais ama.</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- ===================== SOLUÇÃO / SERVIÇOS ===================== -->
   <section class="servicos" id="servicos">
-    <div class="container">
-      <h2 class="section-title">Na Agropatas, seu pet é tratado com o carinho de sempre</h2>
-      <p class="section-subtitle">Ambiente aconchegante, atendimento humanizado e o diferencial que ninguém mais tem em Itupeva.</p>
+    <div class="servicos__blob">
+      <div class="container">
+        <h2 class="section-title section-title--onlight">Nossos serviços</h2>
+        <p class="section-subtitle section-subtitle--onlight">Cuidado completo para cada tipo de bichinho da família.</p>
 
-      <div class="cards">
-        <article class="card">
-          <div class="card__icon" aria-hidden="true">🛁</div>
-          <h3 class="card__title">Banho e Tosa</h3>
-          <p class="card__text">Banho relaxante e tosa na medida certa, com produtos de qualidade e muita paciência. Seu pet sai cheiroso, bonito e tranquilo — não estressado.</p>
-        </article>
+        <div class="filtros" role="tablist" aria-label="Filtrar serviços por animal">
+          <button type="button" class="filtro is-active" data-filtro="todos" role="tab" aria-selected="true">Todos</button>
+          <button type="button" class="filtro" data-filtro="caes" role="tab" aria-selected="false">Cães</button>
+          <button type="button" class="filtro" data-filtro="gatos" role="tab" aria-selected="false">Gatos</button>
+          <button type="button" class="filtro" data-filtro="cavalos" role="tab" aria-selected="false">Cavalos</button>
+        </div>
 
-        <article class="card">
-          <div class="card__icon" aria-hidden="true">🦴</div>
-          <h3 class="card__title">Ração e Acessórios</h3>
-          <p class="card__text">Rações e acessórios de qualidade para cães, gatos e cavalos. Se é para nutrir de verdade, é aqui — com quem entende do assunto.</p>
-        </article>
+        <div class="carrossel" id="carrossel-servicos">
+          <article class="produto-card" data-especies="caes gatos">
+            <div class="produto-card__topo produto-card__topo--1" aria-hidden="true">🛁</div>
+            <div class="produto-card__corpo">
+              <span class="produto-card__tag">Cães · Gatos</span>
+              <h3 class="produto-card__titulo">Banho e Tosa</h3>
+              <p class="produto-card__texto">Banho relaxante e tosa na medida certa, com produtos de qualidade e muita paciência. Seu pet sai cheiroso, bonito e tranquilo.</p>
+              <a href="#" class="produto-card__link js-whatsapp" data-wa-msg="Olá! Quero agendar um banho e tosa para meu pet 🐾">Agendar →</a>
+            </div>
+          </article>
 
-        <article class="card card--destaque">
-          <div class="card__badge">Diferencial exclusivo</div>
-          <div class="card__icon" aria-hidden="true">🚕</div>
-          <h3 class="card__title">TaxiDog</h3>
-          <p class="card__text">A gente busca seu pet em casa, leva pra tomar banho e tosa, e devolve fresquinho na sua porta. Você não perde tempo no trânsito e ele nem sente falta de casa.</p>
-          <a href="#" class="btn btn--primary btn--sm js-whatsapp" data-wa-msg="Olá! Quero saber como funciona o TaxiDog para buscar e levar meu pet em casa 🚕🐾">
-            Quero o TaxiDog
-          </a>
-        </article>
+          <article class="produto-card" data-especies="caes gatos cavalos">
+            <div class="produto-card__topo produto-card__topo--2" aria-hidden="true">🦴</div>
+            <div class="produto-card__corpo">
+              <span class="produto-card__tag">Cães · Gatos · Cavalos</span>
+              <h3 class="produto-card__titulo">Ração e Acessórios</h3>
+              <p class="produto-card__texto">Rações e acessórios de qualidade para cães, gatos e cavalos. Se é para nutrir de verdade, é aqui.</p>
+              <a href="#" class="produto-card__link js-whatsapp" data-wa-msg="Olá! Quero saber mais sobre ração e acessórios para o meu pet 🐾">Saiba mais →</a>
+            </div>
+          </article>
+
+          <article class="produto-card produto-card--destaque" data-especies="caes gatos">
+            <span class="produto-card__badge">Diferencial exclusivo</span>
+            <div class="produto-card__topo produto-card__topo--3" aria-hidden="true">🚕</div>
+            <div class="produto-card__corpo">
+              <span class="produto-card__tag produto-card__tag--onlight">Cães · Gatos</span>
+              <h3 class="produto-card__titulo produto-card__titulo--onlight">TaxiDog</h3>
+              <p class="produto-card__texto produto-card__texto--onlight">A gente busca seu pet em casa, leva pra tomar banho e tosa, e devolve fresquinho na sua porta.</p>
+              <a href="#" class="produto-card__link produto-card__link--onlight js-whatsapp" data-wa-msg="Olá! Quero saber como funciona o TaxiDog para buscar e levar meu pet em casa 🚕🐾">Quero o TaxiDog →</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="carrossel__dots" id="carrossel-dots" aria-hidden="true"></div>
       </div>
     </div>
   </section>
@@ -170,8 +238,13 @@ src="https://www.facebook.com/tr?id=SEU_PIXEL_ID&ev=PageView&noscript=1"
           <footer>— Fabiola Miranda</footer>
         </blockquote>
       </div>
+    </div>
+  </section>
 
-      <h3 class="galeria__titulo">Antes e depois de quem já passou por aqui</h3>
+  <!-- ===================== GALERIA ANTES/DEPOIS ===================== -->
+  <section class="galeria-secao">
+    <div class="container">
+      <h2 class="section-title">Antes e depois de quem já passou por aqui</h2>
       <div class="galeria">
         <!-- SUBSTITUIR cada par por fotos reais de antes/depois de banho e tosa -->
         <div class="galeria__item">
@@ -198,7 +271,7 @@ src="https://www.facebook.com/tr?id=SEU_PIXEL_ID&ev=PageView&noscript=1"
         Já veio aqui e amou o atendimento? Deixe sua avaliação no Google, mostre o print pra
         gente no WhatsApp e ganhe <strong>5% de desconto</strong> no próximo banho do seu pet.
       </p>
-      <a href="#" class="btn btn--accent btn--lg js-whatsapp" data-wa-msg="Olá! Já avaliei a Agropatas no Google e quero resgatar os 5% de desconto no banho do meu pet 🎁🐾">
+      <a href="#" class="btn btn--dark btn--lg js-whatsapp" data-wa-msg="Olá! Já avaliei a Agropatas no Google e quero resgatar os 5% de desconto no banho do meu pet 🎁🐾">
         Quero meu desconto
       </a>
     </div>
