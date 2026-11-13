@@ -1,4 +1,4 @@
-### Olá!!! Eu sou o Célio Junior!!! 😉 <br><br>
+### Olá!!! Eu sou o Célio Santos!!! 😉 <br><br>
 
 - 👯 I’m looking to collaborate on front-end and backend projects <br>
 - 🤔 I’m looking for work with React JS and Typescript <br>
